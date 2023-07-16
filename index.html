@@ -13,15 +13,14 @@
 
 <body>
     <nav class="navbar navbar-expand- navbar-dark bg-dark p-4">
-        <a class="navbar-brand font-weight-bold" href="#">Pokedex</a>
+        <a class="navbar-brand font-weight-bold text-warning" href="#">Pokedex</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <form class="form-inline d-flex justify-content-start mb-6">
             <div class="input-group">
-                <input class="form-control" type="search" placeholder=" &#128270;   Search by Pokémon name" id="input"
-                    aria-label="Search">
+                <input class="form-control" type="search" placeholder="Search" id="search-bar" aria-label="Search">
                 <div class="input-group-append">
                     <button class=" btn btn-outline-warning" type="button">Search</button>
                 </div>
@@ -35,6 +34,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
                 </li>
             </ul>
         </div>
@@ -87,7 +89,7 @@
         crossorigin="anonymous"></script>
     <script src="js/promise-polyfill.js"></script>
     <script src="js/fetch-polyfill.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="dist/scripts.min.js"></script>
 </body>
 
 
